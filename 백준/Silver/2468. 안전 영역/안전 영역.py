@@ -1,6 +1,6 @@
 import sys
 input = sys.stdin.readline
-sys.setrecursionlimit(10**7)
+sys.setrecursionlimit(10**7) #런타임 에러 해결
 
 n= int(input())
 graph = [list(map(int, input().split()))for _ in range(n)] #주어진 땅의 높이 정보 저장
